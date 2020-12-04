@@ -21,7 +21,7 @@ const entryTextbox=document.querySelector(".entry-textbox");
   - On a new line, give the new div a class of 'single-entry'.
   - Change the div's innerText property to the user's input from the textbox
   - Use the appendChild method to add the new div to the entriesSection
-      variable created on line 2
+      variable 
 */
 const entriesNav = document.querySelector(".entries-nav");
 
@@ -41,7 +41,7 @@ function addEntryToDom(event) {
   - Use the document.createElement method to create an HTML button
       and make that the value of the new variable.
   - Use the innerText property to set the button's inner text to "1";
-  - Append the button to the entriesNav div we created on line 4.
+  - Append the button to the entriesNav div .
 */
     
     const displayEntryButton=document.createElement("button");
@@ -49,8 +49,7 @@ function addEntryToDom(event) {
     displayEntryButton.innerText=count	;
 /*
   - increment the button count whenever the submit button is clicked
-  - hint: use a variable to represent the displayButton.innerText value
-      on line 21
+  
 */
     entriesNav.appendChild(displayEntryButton);
     count++;
